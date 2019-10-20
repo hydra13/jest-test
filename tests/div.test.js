@@ -6,7 +6,7 @@ describe('testing division', () => {
     })
     
     test('(8, 0) - throw error "Error: Division by zero."', () => {
-        expect( div(8, 0) ).toThrow('Error: Division by zero.');
+        expect( () => { div(8, 0) } ).toThrow('Error: Division by zero.');
     })
 })
 
