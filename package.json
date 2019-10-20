@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hydra13/jest-test/issues"
   },
-  "homepage": "https://github.com/hydra13/jest-test#readme"
+  "homepage": "https://github.com/hydra13/jest-test#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
 }
